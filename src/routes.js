@@ -36,7 +36,7 @@ routes.post(
 
 
 routes.get('/list_cell/:id', cellsController.show)
-routes.get('/list_cells/', cellsController.index)
+routes.get('/list_cells', cellsController.index)
 
 
 
