@@ -18,6 +18,7 @@ routes.post(
       cell_name: Joi.string().required(),
       leader_name: Joi.string().required(),
       network_color: Joi.string().required(),
+      day: Joi.string().required(),
       schedule: Joi.string().required(),
       email: Joi.string().required().email(),
       whatsapp: Joi.string().required(),

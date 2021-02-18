@@ -5,6 +5,7 @@ exports.up = function(knex) {
     table.string('cell_name').notNullable()
     table.string('leader_name').notNullable()
     table.string('network_color').notNullable()
+    table.string('day').notNullable()
     table.string('schedule').notNullable()
     table.string('email').notNullable()
     table.string('whatsapp').notNullable()

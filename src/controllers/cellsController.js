@@ -6,6 +6,7 @@ module.exports = {
       cell_name,
       leader_name,
       network_color,
+      day,
       schedule,
       email,
       whatsapp,
@@ -21,6 +22,7 @@ module.exports = {
         cell_name,
         leader_name,
         network_color,
+        day,
         schedule,
         email,
         whatsapp,
@@ -59,7 +61,7 @@ module.exports = {
     const serializedCells = cells.map(cell=>{
       return{
       ...cell,
-      image_url: `http://192.168.0.103:3333/uploads/${cell.image}` 
+      image_url: `https://findcellsbackend.herokuapp.com/uploads/${cell.image}` 
       }
     })
 
