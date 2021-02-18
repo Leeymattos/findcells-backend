@@ -7,7 +7,9 @@ const {errors} = require('celebrate')
 
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: 'https://findcells-frontend.vercel.app/'
+}))
 app.use(routes)
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
 
