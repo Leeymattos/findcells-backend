@@ -47,7 +47,7 @@ module.exports = {
 
     const serializedCell = {
       ...cell,
-      image_url: `http://192.168.0.103:3333/uploads/${cell.image}` 
+      image_url: `https://findcellsbackend.herokuapp.com/uploads/${cell.image}` 
       }
     
 
